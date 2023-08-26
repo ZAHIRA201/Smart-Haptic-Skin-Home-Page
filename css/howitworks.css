@@ -1,0 +1,44 @@
+.howitworks-section-title {
+    font-size: clamp(1.4rem, 2vw, 1.5rem);
+    font-weight: 700;
+    letter-spacing: .35rem;
+}
+
+
+.howitworks-img {
+    width: 85vw;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 4.5em;
+}
+
+.howitworks-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 4em;
+}
+
+.howitworks-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.howitworks-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1.3em;
+}
+
+.howitworks-card-header i {
+    width: 2rem;
+}
+
+.howitworks-card-title {
+    font-family: 'Michroma';
+    font-size: clamp(1.05rem, 3.65vw, 1.075rem);
+}
+
+.howitworks-card-description {
+    font-size: clamp(.875rem, 4vw, .95rem);
+}

@@ -1,0 +1,67 @@
+.intro-section-header {
+    margin: 0 auto;
+    margin-bottom: 2em;
+    max-width: 35ch;
+}
+
+.intro-section-title {
+    margin-bottom: .5em;
+}
+
+.intro-section-subtitle {
+    font-family: 'Montserrat';
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+.intro-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+@media(min-width: 915px) {
+    .intro-section-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .intro-section-img-wrapper {
+        width: 40%;
+        order: 3;
+    }
+
+    .intro-section-copy-cta-wrapper {
+        width: 45%;
+        max-width: 60ch;
+    }
+}
+
+
+.intro-section-copy {
+    font-size: .95rem;
+    margin-bottom: 1.75em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.intro-section-copy p {
+    font-size: inherit;
+}
+
+
+.intro-section-cta {
+    display: flex;
+    align-items: center;
+    gap: .75em;
+}
+
+.intro-section-cta span {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}

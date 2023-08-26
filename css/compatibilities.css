@@ -1,0 +1,24 @@
+.compatibilities-section .section-title {
+    font-size: clamp(1.4rem, 2vw, 1.5rem);
+    font-weight: 700;
+    letter-spacing: .35rem;
+}
+
+.compatibilities-section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.compatibilities-section-subtitle {
+    max-width: 65ch;
+}
+
+.compatibilities-section-body {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+    gap: 2em;
+}

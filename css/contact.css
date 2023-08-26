@@ -1,0 +1,163 @@
+.contact-section form {
+    font-size: 1.1rem;
+    margin-bottom: 4em;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+.contact-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.our-logo {
+    width: 180px;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+
+.contact-infos section {
+    margin-bottom: 2.3em;
+}
+
+.contact-infos-section-title {
+    font-family: 'Michroma';
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1.15em;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    letter-spacing: .2rem;
+}
+
+.numbers p {
+    font-size: 1.05rem;
+    letter-spacing: inherit;
+}
+
+.our-address {
+    font-size: 1.05rem;
+    margin-bottom: 2em;
+}
+
+
+.social-media {
+    display: flex;
+    gap: 1.5em;
+}
+
+.social-media i {
+    font-size: 2rem;
+}
+
+
+@media(min-width: 1142px) {
+    .contact-section {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    .contact-section form {
+        margin-bottom: 0;
+    }
+
+    .contact-section form {
+        width: 50%;
+    }
+
+    .contact-infos {
+        width: 400px;
+    }
+
+    .contact-infos section {
+        margin-bottom: 0;
+    }
+
+    .our-logo {
+        width: 40%;
+        margin: unset;
+    }
+    
+}
+
+
+
+.contact-section input {
+    background: none;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.726);
+    height: 6ch;
+}
+
+
+ 
+
+.contact-form input[type="text"],
+.contact-form input[type="phone"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+.contact-section .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5em;
+}
+
+.contact-section .form-group label {
+    margin-bottom: .9em;
+    
+}
+
+
+.contact-section .form-group label, .contact-section .form-group input {
+    display: block;
+    width: 100%;
+} 
+
+.contact-section .flex {
+    gap: 2.2em;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.726);
+}
+
+.contact-section #submit {
+    border: none;
+    background: #464646;
+    color: white;
+    font-size: 1.1rem;
+    height: 3em;
+    font-family:'Poppins', sans-serif;
+    letter-spacing: .1rem;
+}
+
+
+
+
+

@@ -1,0 +1,259 @@
+
+
+
+.buttom{
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 5741px;
+    background: #131313;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 746px;
+
+    position: absolute;
+    height: 34px;
+    left: 100px;
+    right: 99px;
+    top: 33px;
+}
+.under_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+/* Frame 4 */
+
+/* Auto layout */
+
+.button_and_frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+
+    margin: 0 auto;
+    width: 379px;
+    height: 35.13px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+/* Frame 66 */
+.frame {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 8.54px;
+
+    margin: 0 auto;
+    width: 270.41px;
+    height: 35.13px;
+
+    border: 0.853521px solid #6C6C6C;
+    border-radius: 11.0958px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+
+/* Frame 65 */
+.buttonn {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8.53521px 16.2169px;
+    gap: 8.54px;
+
+    margin: 0 auto;
+    width: 140px;
+    height: 35.07px;
+
+    background: #00768F;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#inscrire {
+    /* S’inscrivez */
+
+    width: 76px;
+    height: 18px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5098px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+/* Frame 64 */
+.suggestion_lists{
+    display: flex;
+    max-width: 805px;
+    padding-right: 0px;
+    align-items: flex-start;
+    gap: 55px;
+    flex: 1 0 0;
+
+}
+
+
+/* Frame 61 */
+.product_list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13.962px;
+    flex: 1 0 0;
+
+
+}
+
+.product_title{
+    /* Product */
+
+    width: 60px;
+    height: 18px;
+
+    color: #A4A4A4;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4466px;
+    line-height: 18px;
+}
+
+
+.product_items{
+    /* Frame 60 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 7.11px;
+
+    width: 145.75px;
+    height: 71.22px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+
+/* Update */
+
+.product_item1{
+    width: 145.75px;
+    height: 19px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2964px;
+    line-height: 19px;
+    
+    color: #CECECE;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+
+
+
+
+/* Securtiy */
+.product_item2{
+    width: 64px;
+    height: 19px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2964px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #CECECE;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+/* Chrome extension */
+.product_item3{
+    width: 145.75px;
+    height: 19px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2964px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #CECECE;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+
+
+    
+
+
+
+
